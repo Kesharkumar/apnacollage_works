@@ -3,3 +3,42 @@
   padding: 0;
   border: 0;
 }
+
+/* Basic styling */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Big box styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  background-color: #f1f1f1;
+  border: 2px solid #333;
+}
+
+/* Small box styles */
+.box {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 150px;
+}
